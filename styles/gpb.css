@@ -1,0 +1,33 @@
+  .gp-header {
+    display: flex;
+    flex-direction: row;
+    height: 112px;
+    width: 1152px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .gp-logo {
+    height: 52px;
+  }
+
+  .gp-header-left-section {
+    display: flex;
+    gap: 34px;
+  }
+
+  .gp-header-right-section {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .user-icon,
+  .search-icon,
+  .cart-icon {
+    height: 30px;
+  }
+
+
+
