@@ -1,10 +1,19 @@
-  .gp-header {
+  .gp-header-container {
+    position: sticky;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    background-color: white;
+  }
+
+  .gp-header-content {
     display: flex;
-    flex-direction: row;
-    height: 112px;
-    width: 1152px;
     justify-content: space-between;
     align-items: center;
+    width: 1152px;
+    height: 100%;
     margin: auto;
   }
 
@@ -27,6 +36,35 @@
   .search-icon,
   .cart-icon {
     height: 30px;
+  }
+
+  .gp-hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    width: 1152px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5000px;
+  }
+
+  .hero-image {
+    width: 600px;
+  }
+
+  .gp-hero-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .shop-now-button {
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
   }
 
 
