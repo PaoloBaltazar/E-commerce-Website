@@ -38,6 +38,11 @@
     height: 30px;
   }
 
+  .gp-hero-container {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(131,129,129,1) 100%);
+  }
+
   .gp-hero-section {
     display: flex;
     flex-direction: row;
@@ -45,10 +50,9 @@
     gap: 50px;
     width: 1152px;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 5000px;
+    padding-top: 100px;
   }
-
+  
   .hero-image {
     width: 600px;
   }
@@ -59,8 +63,17 @@
     gap: 30px;
   }
 
+  .gp-hero-left-section h1 {
+    font-size: 64px;
+  }
+
+  .gp-hero-left-section p {
+    font-size: 20px;
+  }
+
   .shop-now-button {
-    width: 100px;
+    width: 130px;
+    height: 40px;
     border: none;
     background-color: black;
     color: white;
