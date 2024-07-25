@@ -98,3 +98,55 @@ body, html {
   padding: 10px;
 }
 
+.featured-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 50px;
+  
+}
+
+.product-image-container {
+  background-color: #E7E7E7;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.product-image {
+  height: 300px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.product-name {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.product-price {
+  font-weight: 700;
+}
+
+
