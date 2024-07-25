@@ -106,7 +106,7 @@ body, html {
   width: 1500px;
   margin: auto;
   padding-top: 50px;
-  padding-bottom: 500px;
+  padding-bottom: 100px;
 }
 
 .card-container {
@@ -147,6 +147,51 @@ body, html {
 
 .product-price {
   font-weight: 700;
+}
+
+.markdown-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  margin: auto;
+  background-color: #303030;
+  color: white;
+  padding: 50px 0;
+}
+
+.markdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.markdown-title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.markdown-discount {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.markdown-shop-button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-width: 1px;
+  color: black;
+  padding: 10px;
+}
+
+.shop-by-category {
+  margin-top: 200px;
 }
 
 
